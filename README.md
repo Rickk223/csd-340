@@ -1,2 +1,5 @@
-# csd-340
-CSD340-J315 Web Development with HTML and (2217-DD) 
+# CSD 340 Web Development with HTML and CSS
+
+## Contributors
+* Professor: Chris Soriano
+* Student: Ricardo Guillen Vergara 
