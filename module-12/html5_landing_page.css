@@ -98,3 +98,48 @@ a:visited{color: rgb(0, 0, 0);}
     transition-duration: 1s;
     width: 95%;
 }
+.button {
+	border: none;
+	color: white;
+	padding: 5px 3px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+  
+  .button1 {background-color: rgb(165, 42, 42);} /* Send Message */
+  
+  aside section button:hover{background-color:  rgba(83, 2, 2, 0.5)}
+
+  input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: rgb(165, 42, 42);;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: rgba(83, 2, 2, 0.5);
+  }
+  
+  .contact {
+	border-radius: 5px;
+	background-color: rgb(219, 196, 164);
+	padding: 20px;
+  }
