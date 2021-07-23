@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* { box-sizing: border-box; }
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: brown;
+  background-image: url("ricardo_pics/background.jpg");
+}
+
+/* STRUCTURE */
+
+.wrapper {
+	padding: 5px;
+	max-width: 960px;
+	width: 95%;
+	margin: 20px auto;
+	background-color: rgb(219, 196, 164);
+}
+header {
+	padding: 0 15px;
+}
+#pic1 img{
+    width: 500px;
+	margin: 20px;}
+figure{margin: 0%;}
+
+figure img {width: 100%;
+			margin: 0px, 0px, 0px, 0px;
+			padding-left: 0px;}
+
+
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+	border: 1px solid gray;
+	margin: 2px;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+	
+}
+
+footer {
+	padding: 0 15px;
+}
+h1, h2 {
+    font-weight: bold;
+    text-align: center;}
+#mainpic{margin-left: 20px;}
+#hobby2{margin-top: 50px;}
+#hobby3{margin-top: 40px;}
+
+
+@media screen and (max-width: 980px) {
+  .columns .column {
+		margin-bottom: 5px;
+    flex-basis: 40%;
+		
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.columns .column {
+		flex-basis: 100%;
+		margin: 0 0 5px 0;
+	}
+}
+aside {
+    width: 230px;
+    /*control heigth here to move footer-wrapper height does not change it*/
+    height: 500px;
+    float: right;
+    padding: 0px 0px 0px 20px;}
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid gray;}
+aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;}
+aside h2 {
+		padding: 0px 0px 10px 0px;
+		color: rgb(165, 42, 42);}
+a {
+			color: rgb(165, 42, 42);
+			text-decoration: none;}
+a:visited{color: rgb(0, 0, 0);}
+.card {
+    box-shadow: 0 8px 16px 0 rgba(83, 2, 2, 0.5);
+    transition-duration: 1s;
+    width: 95%;
+}
