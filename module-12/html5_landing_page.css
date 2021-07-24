@@ -27,7 +27,8 @@ figure{margin: 0%;}
 
 figure img {width: 100%;
 			margin: 0px, 0px, 0px, 0px;
-			padding-left: 0px;}
+			padding-left: 0px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);}
 
 
 
@@ -55,8 +56,9 @@ h1, h2 {
     font-weight: bold;
     text-align: center;}
 #mainpic{margin-left: 20px;}
+/*figcaptions for hobbies 2 and 3*/
 #hobby2{margin-top: 50px;}
-#hobby3{margin-top: 40px;}
+#hobby3{margin-top: 35px;}
 
 
 @media screen and (max-width: 980px) {
@@ -78,10 +80,13 @@ aside {
     /*control heigth here to move footer-wrapper height does not change it*/
     height: 500px;
     float: right;
-    padding: 0px 0px 0px 20px;}
+    padding: 0px 0px 0px 20px;
+	margin: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);}
 aside section a {
     display: block;
     padding: 10px;
+	margin-right: 20px;
     border-bottom: 1px solid gray;}
 aside section a:hover {
     color: #985d6a;
